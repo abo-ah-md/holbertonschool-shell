@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -empty | tr "./" " "
+find . -type f -size 0

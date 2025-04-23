@@ -1,2 +1,2 @@
 #!/bin/bash
-find .  -maxdepth 2  -type f -size 0  -printf "%f \n"
+find . -type f -size 0 -printf "%f\n"

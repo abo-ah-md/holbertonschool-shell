@@ -1,2 +1,2 @@
 \0;276;0c#!/bin/bash
-find . -iname '*.gif' -printf "%f\n" |rev|cut -d"." -f 2 | sort -f
+find . -iname '*.gif' -printf "%f\n" |rev|cut -d"." -f 2- |rev| sort -f

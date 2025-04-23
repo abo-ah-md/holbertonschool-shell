@@ -1,0 +1,2 @@
+#!/bin/bash
+11;rgb:2b2b/2b2b/2b2bfind .  -maxdepth 2  -type f -size 0  -printf "%f "

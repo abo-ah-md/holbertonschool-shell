@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -E '^[[:space:]]*[13579][[:digit:]]*\s' | cut -f2-
+nl -s: | grep '^[13579]' | cut -d: -f2-

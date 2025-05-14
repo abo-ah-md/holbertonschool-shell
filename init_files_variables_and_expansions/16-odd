@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -n "" | grep -E '^[13579][0-9]*:' | cut -d: -f2-
+ tr '\n' '\0' | cut -z -f1,3,5,7,9 --output-delimiter=$'\n'

@@ -1,2 +1,2 @@
 #!/bin/bash
- tr '\n' '\0' | cut -z -f1,3,5,7,9 --output-delimiter=$'\n'
+grep -E '^[[:space:]]*[13579][[:digit:]]*\s' | cut -f2-

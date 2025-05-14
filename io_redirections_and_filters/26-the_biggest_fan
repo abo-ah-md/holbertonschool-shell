@@ -1,2 +1,3 @@
 #!/bin/bash
-cut -f1 | sort | uniq -c | sort -nr | head -n 10 | cut -c9-
+cut -f1 -d$'\t' | sort | uniq -c | sort -nr | head -n 10 | cut -c9-
+
